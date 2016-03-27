@@ -1,0 +1,17 @@
+#container{
+	height: 477px;
+	margin: 0 auto;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;/*溢出容器的图片不显示*/
+	position: relative;
+}
+
+#container img{
+	position: absolute;
+	display: block;
+	left: 0;
+	/*实现左对齐*/
+	border-left: 1px solid #ccc;
+	
+}
